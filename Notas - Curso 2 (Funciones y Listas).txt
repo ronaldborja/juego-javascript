@@ -1,0 +1,69 @@
+Objetivo -> Mejorar el proyecto del primer curso (Profesionalizarlo): 
+
+1. DOM: Document Object Model -> Arbol y cada nodo es un elemento de HTML (etiquetas): 
+
+* Ej: Botones, Imagenes, Cajas son parte del DOM 
+* Selectores: Mecanismo para seleccionar elementos en HTML 
+ * querySelector('selector') 
+ * innerHTML('ValorNuevoHTML')
+ 
+2. Evento a un clic + Funciones: 
+
+* Evento -> Acciones (click a botones, teclas, mover el cursos, ponerse encima de un botón) 
+* Cambiar el color, poner la letra más grande 
+* onclick = funcion() -> Permite separar la logica de un componente en javascript 
+* Función -> Bloque de codigo que realiza una tarea
+
+function nombre() {
+
+}
+
+HTML: 1991: Tim Berners Lee -> Esqueleto de una pág web 
+CSS: 1995. Lenguaje de estilos 
+JS: Interactividad y dinamismo 
+
+Hoisting 
+
+Alcance: 
+ * Global -> Fuera de bloques de funciones 
+ * Local -> Dentro de funciones 
+
+Cuando hay multiples etiquetas, hay que diferenciarlos por id o clases. 
+La clave es que podemos llamar los elementos de HTML en JS y manipular con logica sus valores
+
+* typeof(var) -> Retorna el tipo de variable 
+* parseInt(var) -> Transformar una variable a numero 
+
+
+3. Funciones anonimas + Funciones Flecha: 
+
+* Anonimas -> let saludo = function() {}
+* Flecha -> let cuadrado = x => x*x; 
+* domElement.querySelector('el').removeAttribute('attr')
+  * El atributo puede ser el disabled de un botón 
+
+// Espera dos argumentos: El atributo y la acción
+* .setAttribute('disable', 'true') 
+
+
+4. Listas: 
+* Arrays -> Tener multiples cajas en una caja mayor. 
+
+Métodos: 
+  - push(elemento) 
+  - length: longitud de la lista 
+  - [i] -> acceso a elementos (no se puede acceder a posiciones no validas) 
+  - pop() -> eleminar el ultimo elemento 
+  
+ 
+5. Recursividad en arrays:
+ * .includes('elemento'); -> para confirmar si un elemento está en la lista 
+ * recursividad -> Llamar nuevamente la funcionalidad (reutilizarla) 
+
+Todas las funciones recursivas deben tener un stop -> Debemos salir del bucle: 
+ * Agregar un validador 
+
+6. Compartir el codigo -> Git/GitHub 
+
+
+
